@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Moodle Quiz",
+    "description": "Store and auto select defined answer.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "https://qa.moodledemo.net/mod/quiz/attempt.php*"
+            ]
+        }
+    ]
+}
