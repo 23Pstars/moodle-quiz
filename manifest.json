@@ -12,7 +12,8 @@
                 "script.js"
             ],
             "matches": [
-                "https://qa.moodledemo.net/mod/quiz/attempt.php*"
+                "https://arubalympics.id/mod/quiz/attempt.php*",
+                "http://moodle.local/mod/quiz/attempt.php*"
             ]
         }
     ]
