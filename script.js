@@ -90,44 +90,44 @@ window.onload = function () {
 
                                 let _i = 99;
 
-                                switch (jwb) {
-                                    case decodeURI(txtJwb1):
+                                switch (jwb.substr(2)) {
+                                    case decodeURI(txtJwb1).substr(2):
                                         console.log('jwb1');
                                         _i = 0;
                                         break;
-                                    case decodeURI(txtJwb2):
+                                    case decodeURI(txtJwb2).substr(2):
                                         console.log('jwb2');
                                         _i = 1;
                                         break;
-                                    case decodeURI(txtJwb3):
+                                    case decodeURI(txtJwb3).substr(2):
                                         console.log('jwb3');
                                         _i = 2;
                                         break;
-                                    case decodeURI(txtJwb4):
+                                    case decodeURI(txtJwb4).substr(2):
                                         console.log('jwb4');
                                         _i = 3;
                                         break;
-                                    case decodeURI(txtJwb5):
+                                    case decodeURI(txtJwb5).substr(2):
                                         console.log('jwb5');
                                         _i = 4;
                                         break;
-                                    case decodeURI(txtJwb6):
+                                    case decodeURI(txtJwb6).substr(2):
                                         console.log('jwb6');
                                         _i = 5;
                                         break;
-                                    case decodeURI(txtJwb7):
+                                    case decodeURI(txtJwb7).substr(2):
                                         console.log('jwb7');
                                         _i = 6;
                                         break;
-                                    case decodeURI(txtJwb8):
+                                    case decodeURI(txtJwb8).substr(2):
                                         console.log('jwb8');
                                         _i = 7;
                                         break;
-                                    case decodeURI(txtJwb9):
+                                    case decodeURI(txtJwb9).substr(2):
                                         console.log('jwb9');
                                         _i = 8;
                                         break;
-                                    case decodeURI(txtJwb10):
+                                    case decodeURI(txtJwb10).substr(2):
                                         console.log('jwb10');
                                         _i = 9;
                                         break;
